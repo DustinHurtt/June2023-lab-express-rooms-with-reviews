@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+
+    <nav>
+
+      <a href="/">Home</a>
+      <a href="/rooms">See Rooms</a>
+      <a href="/rooms/create">Add Room</a>
+      <a href="/auth/signup">Signup</a>
+      <a href="/auth/login">Login</a>
+
+      <form action="/auth/logout" method="get">
+        <button type="submit">Logout</button>
+      </form>
+
+    </nav>
+
+    {{{body}}}
+  </body>
+</html>

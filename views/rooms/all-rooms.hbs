@@ -1,0 +1,10 @@
+<h2>All Rooms</h2>
+
+{{#each rooms}}
+
+    <a href="/rooms/details/{{_id}}">
+        <p>{{name}} added by: {{owner.fullName}}</p>   
+    </a>
+    <hr>
+
+{{/each}}
